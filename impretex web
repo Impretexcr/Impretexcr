@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Impretexcr - Servicios Textiles</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0; padding: 0;
+      background: #fff;
+      color: #333;
+    }
+    header {
+      background-color: #b30000; /* rojo fuerte */
+      color: white;
+      padding: 15px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    header img {
+      height: 50px;
+    }
+    nav a {
+      color: white;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #ff4d4d;
+    }
+    section {
+      padding: 30px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h1, h2 {
+      color: #b30000;
+    }
+    footer {
+      background-color: #b30000;
+      color: white;
+      text-align: center;
+      padding: 15px 20px;
+      margin-top: 40px;
+    }
+    .contact-info p {
+      margin: 5px 0;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <!-- Aquí puedes poner tu logo -->
+    <img src="logo.png" alt="Impretexcr Logo" />
+  </div>
+  <nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#productos">Productos</a>
+    <a href="#nosotros">Nosotros</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+</header>
+
+<section id="inicio">
+  <h1>Bienvenidos a Impretexcr</h1>
+  <p>Somos especialistas en servicios textiles de alta calidad, ofreciendo soluciones adaptadas a tus necesidades.</p>
+</section>
+
+<section id="productos">
+  <h2>Productos</h2>
+  <p>Ofrecemos una variedad de productos textiles para todo tipo de industrias y proyectos.</p>
+  <ul>
+    <li>Textiles para confección</li>
+    <li>Materiales personalizados</li>
+    <li>Servicio de impresión y bordado</li>
+  </ul>
+</section>
+
+<section id="nosotros">
+  <h2>Nosotros</h2>
+  <p>Impretexcr es una empresa dedicada a brindar la mejor calidad en textiles, con años de experiencia y compromiso con nuestros clientes.</p>
+</section>
+
+<section id="contacto">
+  <h2>Contacto</h2>
+  <div class="contact-info">
+    <p><strong>Teléfono:</strong> +506 7156 5900</p>
+    <p><strong>Emails:</strong> impretexcr@hotmail.com, impretexcr17@gmail.com</p>
+    <p><strong>Dirección:</strong> De los semáforos de Hatillo 1, 100 metros norte, bodega esquinera 4</p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 Impretexcr - Todos los derechos reservados</p>
+</footer>
+
+</body>
+</html>
